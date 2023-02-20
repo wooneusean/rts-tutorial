@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37b91a8f-5bc1-4ce8-a598-8ea5d00705cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/edu/apu/rabbitmq/exchange/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/edu/apu/rabbitmq/exchange/Sender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,39 +64,26 @@
       <recent name="my.edu.apu.rabbitmq.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AltitudeSensor">
+  <component name="RunManager" selected="Application.Altitude">
+    <configuration name="Altitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab8.Altitude" />
+      <module name="rts-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.edu.apu.lab8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AltitudeSensor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.edu.apu.flightcontrol.AltitudeSensor" />
       <module name="rts-tutorial" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="my.edu.apu.flightcontrol.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bakery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab6.Bakery" />
-      <module name="rts-tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my.edu.apu.lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab6.Customer" />
-      <module name="rts-tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my.edu.apu.lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab6.Worker" />
+    <configuration name="WingFlaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab8.WingFlaps" />
       <module name="rts-tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.edu.apu.lab6.*" />
+          <option name="PATTERN" value="my.edu.apu.lab8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my.edu.apu.lab8.FlightControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.edu.apu.lab8.FlightControl" />
+      <module name="rts-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.edu.apu.lab8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Altitude" />
+        <item itemvalue="Application.WingFlaps" />
+        <item itemvalue="Application.my.edu.apu.lab8.FlightControl" />
         <item itemvalue="Application.AltitudeSensor" />
         <item itemvalue="Application.FlightControl" />
-        <item itemvalue="Application.Worker" />
-        <item itemvalue="Application.Customer" />
       </list>
     </recent_temporary>
   </component>

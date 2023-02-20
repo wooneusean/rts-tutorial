@@ -16,8 +16,10 @@ public class Sender {
         try (Connection con = cf.newConnection()) {
             Channel ch = con.createChannel();
             ch.exchangeDeclare(exchangeName, BuiltinExchangeType.FANOUT);
+
             String msg;
             Scanner scn = new Scanner(System.in);
+
             while (true) {
                 System.out.println("Enter a message:");
                 msg = scn.nextLine();
